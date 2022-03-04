@@ -1,0 +1,16 @@
+{
+    "$schema": "https://raw.githubusercontent.com/s-KaiNet/spfx-fast-serve/master/schema/config.latest.schema.json",
+    "cli": {
+        "isLibraryComponent": false
+    },
+    "externals": {
+        "jquery": {
+            "path": "node_modules/jquery/dist/jquery.min.js",
+            "globalName": "jQuery"
+        },
+        "bootstrap": {
+            "path": "node_modules/bootstrap/dist/js/bootstrap.min.js",
+            "globalName": "bootstrap"
+        }
+    }
+}
